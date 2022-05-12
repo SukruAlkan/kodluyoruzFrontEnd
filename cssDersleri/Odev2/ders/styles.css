@@ -1,0 +1,84 @@
+/* css öğrenmek için populer siteler
+        https://www.w3schools.com/css/default.asp
+        https://css-tricks.com/
+css örnek sitler
+        https://www.cssdesignawards.com/
+        https://www.csswinner.com/
+*/
+/*
+        CSS Selectors Reference (stil vermek için kullanılan kalıplar)
+        https://www.w3schools.com/css/css_selectors.asp
+*/
+
+body { /*web tarayıcı pencerindeki boşluklar*/
+        margin: 0;
+        padding: 0;
+}
+
+.gradient {
+        background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+        background-image: linear-gradient(90deg, rgba(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+}
+
+.btn {
+        padding: 10px 20px;
+        border-radius: 25px; /* köşeleri yuvarlatma */
+        color: white;
+        text-decoration: none; /* yazının  alını çizili yapıyordu onu kaldırdık*/
+        /* css shadow buttona gölge eklemek için*/
+        /*https://html-css-js.com/css/generator/box-shadow/*/
+        -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+        box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+.container {
+        width: 1000px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* margin: 0 auto 0 auto; */
+        margin: 50px auto 0;
+}
+
+.left-bar {
+       width: 200px;
+       float: left;
+}
+
+.content {
+        width: 800px;
+        float: left;
+}
+
+.card {
+        width: 20%;
+        float: left;
+        padding: 5%;
+        margin-right: 3%;
+        background-color: grey;
+        border-radius: 10px; /* kutu köşelerini yuvarlaklaştırma https://www.w3schools.com/cssref/css3_pr_border-radius.asp */
+
+}
+
+.clear { /* Nesnenin sağında ve solunda hiçbir şey yer almayacak */
+        clear: both;
+}
+.box {
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        /*margin: 10px;*/ /*margin top bottom left right hepsinden aynı mesafede boşluk bırakır*/
+        /* margin-top: 10px; */
+        /* margin-bottom: 10px; */
+        /* margin-left: 10px; */
+        margin-right: 10px;
+        float: left; /* kutuların dizilim şeklini belirler örneğin sola ya da sağa dayalı */
+}
+
+.bg-cyan {
+        background-color: cyan;
+}
+
+.bg-lime {
+        background-color: lime;
+}
